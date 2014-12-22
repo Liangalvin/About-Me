@@ -1,0 +1,11 @@
+body {
+  background-image: url("https://secure.static.tumblr.com/c1a229d104341b79a5ef46fda130831b/vj1gxyc/BBondz2dz/tumblr_static_tumblr_static_dpfo7u3qblkw0ookoccswc8g8_1280.png");
+}
+
+#container {
+  width: 70%;
+  height: 80%;
+  border-style: solid;
+  border-color: white;
+  margin: 5% auto;
+}
