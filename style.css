@@ -153,6 +153,7 @@ a:hover {
 .LIimage {
   width: 25px;
   height: 25px;
+  padding: 0 10px;
 }
 
 .contact-li {
@@ -161,11 +162,6 @@ a:hover {
   border-style:solid;
   border-color: orange;
 }
-
-/*.contactinfo {
-  border-style: solid;
-  border-color: white;
-}*/
 
 #infolist {
   display: inline;
@@ -179,4 +175,5 @@ a:hover {
 .contactlist {
   width: 20%;
   height: 10%;
+  text-align: center;
 }
