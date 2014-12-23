@@ -44,7 +44,7 @@ h1 {
 }
 
 #info {
-  width: 80%;
+  width: 90%;
   height: 65%;
   border-style: solid;
   border-color: red;
@@ -76,4 +76,35 @@ li {
   float: left;
   margin-right: 25px;
   text-align: center;
+}
+
+#info {
+  color: white;
+}
+
+#project1 {
+  width: 32%;
+  height: 100%;
+  border-style: solid;
+  border-color: white;
+  float: left;
+  padding: 2px;
+}
+
+#project2 {
+  width: 32%;
+  height: 100%;
+  float: left;
+  border-style: solid;
+  border-color: white;
+  padding: 2px;
+}
+
+#project3 {
+  width: 32%;
+  height: 100%;
+  float: left;
+  border-style: solid;
+  border-color: white;
+  padding: 2px;
 }
