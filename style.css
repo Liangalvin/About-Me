@@ -14,6 +14,9 @@ a:link {
   width: 175px;
   height: 45px;
   text-align: center;
+  border-style: solid;
+  border-color: white;
+  border-radius: 5px;
 }
 
 #container {
@@ -22,6 +25,7 @@ a:link {
   border-style: solid;
   border-color: white;
   margin: 5% auto;
+  border-radius: 5px;
 }
 
 #header {
@@ -43,6 +47,11 @@ h1 {
   border-color: blue;
 }
 
+/*li {
+  border-radius: 5px;
+  border-style: solid;
+}*/
+
 #info {
   width: 90%;
   height: 65%;
@@ -58,20 +67,20 @@ h1 {
   border-color: limegreen;
 }
 
-ul {
+#navlist {
   list-style-type: none;
   float: right;
   margin: 10px 20px;
 }
 
-li {
+.listitem {
   width: 80px;
   height: 20px;
   color: gray;
   display: inline;
   text-decoration: none;
   border-style: solid;
-  border-color: gray;
+  border-color: white;
   margin: auto;
   float: left;
   margin-right: 25px;
@@ -107,4 +116,67 @@ li {
   border-style: solid;
   border-color: white;
   padding: 2px;
+}
+
+a:hover {
+  color: red;
+}
+
+#picdiv {
+  width: 40%;
+  height: 100%;
+  border-style: solid;
+  border-color: white;
+  float: left;
+}
+
+#meImg {
+  width: 175px;
+  height: 175px;
+  margin: 50px 75px;
+}
+
+#aboutinfo {
+  width: 55%;
+  height: 100%;
+  float: left;
+}
+
+#info_p {
+  border-style: solid;
+  border-color: yellow;
+  width: 90%;
+  height: 80%;
+  margin: 5% 5%;
+}
+
+.LIimage {
+  width: 25px;
+  height: 25px;
+}
+
+.contact-li {
+  width: 50px;
+  height: 20px;
+  border-style:solid;
+  border-color: orange;
+}
+
+/*.contactinfo {
+  border-style: solid;
+  border-color: white;
+}*/
+
+#infolist {
+  display: inline;
+  border-style: solid;
+  border-color: pink;
+  width: 50px;
+  height: 25px;
+  list-style-type: none;
+}
+
+.contactlist {
+  width: 20%;
+  height: 10%;
 }
