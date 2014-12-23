@@ -2,6 +2,19 @@ body {
   background-image: url(images/space_image.png);
 }
 
+a:link {
+  text-decoration: none;
+  background-color: yellow;
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+#logo {
+  width: 175px;
+  height: 50px;
+}
+
 #container {
   width: 80%;
   height: 80%;
