@@ -1,0 +1,79 @@
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Count-cu-later</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+    <div id="container">
+    <h1>Count-Cu-Later</h1>
+    <div class="divider">
+    <p>First Number?</p>
+    <input type="number" id="firstNum" placeholder="Number">
+    <p>Second Number?</p>
+    <input type="number" id="secondNum" placeholder="Number">
+  </br>
+    </div>
+    <div class="divider"v>
+    <button id="add" class="but">add</button>
+    <button id="minus" class="but">subtract</button>
+    <button id="mult" class="but">mul-tee-plies</button>
+    <button id="div" class="but">dee-vide</button>
+  </br>
+    <input id="ans" type="text" placeholder="Result" readonly>
+    </div>
+  </body>
+</div>
+  <script>
+      //var numOne = parseInt(document.querySelector("#firstNum").value);
+      //var numTwo = parseInt(document.querySelector("#secondNum").value);
+      var answer = document.querySelector("#ans");
+      //var text = answer.value;
+
+      var addn = function(){
+        var numOne = parseInt(document.querySelector("#firstNum").value);
+        var numTwo = parseInt(document.querySelector("#secondNum").value);
+        var sum = numOne + numTwo;
+        answer.value = sum;
+      }
+
+      var tkawy = function(){
+        var numOne = parseInt(document.querySelector("#firstNum").value);
+        var numTwo = parseInt(document.querySelector("#secondNum").value);
+        var difference = numOne - numTwo;
+        answer.value = difference;
+      }
+
+      var mtply = function(){
+        var numOne = parseInt(document.querySelector("#firstNum").value);
+        var numTwo = parseInt(document.querySelector("#secondNum").value);
+        var products = numOne * numTwo;
+        answer.value = products;
+      }
+
+      var divide = function(){
+        var numOne = parseInt(document.querySelector("#firstNum").value);
+        var numTwo = parseInt(document.querySelector("#secondNum").value);
+        if((numOne === 0) || (numTwo === 0)){
+          alert("Go to hell! Take your ZERO with you!");
+        }
+        var quotient = numOne / numTwo;
+        answer.value = quotient;
+      }
+
+      var addbtn = document.querySelector("#add");
+      addbtn.addEventListener("click", addn);
+      var subbtn = document.querySelector("#minus");
+      subbtn.addEventListener("click", tkawy);
+      var multbtn = document.querySelector("#mult");
+      multbtn.addEventListener("click", mtply);
+      var divbtn = document.querySelector("#div");
+      divbtn.addEventListener("click", divide);
+
+  </script>
+  <footer>Copyright 2014</br>
+    Count-Cu-Later produced by a mind of a linguistic genius.
+  </br>
+  <span>(No semi-colon's were harmed in the production of this Count-Cu-Later)</span>
+  </footer>
+</html>

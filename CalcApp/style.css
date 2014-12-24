@@ -1,0 +1,57 @@
+h1 {
+  width: 500px;
+  border-bottom: solid;
+  border-color: pink;
+  background-color: black;
+  color: pink;
+  text-align: center;
+  margin: auto;
+}
+
+#container {
+  width: 500px;
+  height: 450px;
+  border: solid;
+  border-color: pink;
+  background-color: black;
+  color: pink;
+  margin: auto;
+}
+
+.divider {
+  border-top: solid;
+  border-color: pink;
+  text-align: center;
+  width: 500px;
+  height: 200px;
+  margin: auto;
+}
+
+input {
+  margin: auto;
+}
+
+.but {
+  margin-top: 50px;
+  width: 100px;
+  height: 30px;
+}
+
+#ans {
+  width: 80px;
+  height: 30px;
+  margin-top: 50px;
+}
+
+footer {
+  color: pink;
+  width: 500px;
+  background-color: black;
+  margin: auto;
+  border-style: solid;
+  text-align: center;
+}
+
+span {
+  font-size: 11px;
+}
