@@ -1,0 +1,85 @@
+<html>
+<body><center><b>FORGET Semi-colons! I'd take a period any day of the month.</b></center>
+<canvas id="the_canvas" width="800" height="600"></canvas>
+<script>
+  var canvas = document.getElementById('the_canvas');
+  var ctx = canvas.getContext('2d');
+  var n = 0;
+  var i = 0;
+  var mv = function(){
+      i = i + 4;
+      if (i > 500){
+        i = 0;
+      };
+      n += .75;
+      if (n > 350){
+        n = 0
+      }
+    //background
+    ctx.beginPath();
+    ctx.fillStyle = "#3399FF";
+    ctx.fillRect (0, 0, 800, 600);
+    //laser
+    ctx.beginPath();
+    ctx.fillStyle = "#00FF00";
+    //ctx.fillRect(220, 235, 10, 25);
+    //moveTo(240, 240);
+    ctx.fillRect(255+i, 225, 48, 10);
+    //ctx.bezierCurveTo(260, 244, 315, 225, 260, 210);
+    ctx.fill();
+    //ctx.stroke();
+    ctx.closePath();
+  //Head
+    ctx.beginPath();
+    ctx.fillStyle = "#FF9966";
+    ctx.arc(200, 200, 25, 0, Math.PI*2, true);
+    ctx.fill();
+    // body
+    ctx.beginPath();
+    ctx.fillStyle = "#003333";
+    ctx.fillRect(180, 215, 30, 75);
+    ctx.fill();
+    ctx.closePath()
+    //arm
+    ctx.beginPath();
+    ctx.fillRect(210, 245, 10, 10);
+    ctx.fill();
+    ctx.closePath();
+    //the launcher
+    ctx.beginPath();
+    ctx.fillStyle = "#282828";
+    ctx.fillRect(220, 235, 10, 25);
+    moveTo(240, 240);
+    ctx.fillRect(220, 220, 48, 20);
+    ctx.bezierCurveTo(255, 240, 310, 225, 268, 218);
+    ctx.fill();
+    ctx.closePath();
+    //legs
+    ctx.beginPath();
+    ctx.fillStyle = "#700000";
+    ctx.fillRect(180, 275, 30, 75);
+    ctx.fill();
+    ctx.closePath();
+    // semicolon O
+    ctx.beginPath();
+    //ctx.fillStyle = "#505050";
+    ctx.arc(599, 190, 10, 0, Math.PI*2, true);
+    ctx.stroke();
+    ctx.closePath();
+    //semicolon bottom portion
+    ctx.beginPath();
+    //ctx.fillStyle="#505050";
+    ctx.moveTo(590+n, 235);
+    ctx.lineTo(605+n, 235);
+    //ctx.moveTo(565, 340);
+    ctx.lineTo(605+n, 235);
+    //ctx.moveTo(590, 235);
+    ctx.lineTo(565+n, 340);
+    ctx.closePath();
+    ctx.stroke();
+}
+    setInterval(mv, 2);
+    setInterval(mvsc, 3);
+</script>
+</body>
+</html>

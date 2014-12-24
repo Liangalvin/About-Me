@@ -1,0 +1,53 @@
+body {
+  margin: 50px auto;
+  width: 60%;
+  height: 80%;
+  background: #9a9a9a;
+  text-align: center;
+  border-style: solid;
+}
+
+button {
+  margin-left: 20px;
+}
+
+div {
+  margin: auto;
+  text-align: left;
+  overflow: hidden;
+  height: 80%;
+  width: 80%;
+  overflow: hidden;
+}
+
+#clients {
+  border-style: solid;
+  border-color: lightgreen;
+  float: right;
+  height: 75%;
+  width: 35%;
+  /*background-color: blue;*/
+  margin: auto;
+}
+
+ul {
+  border-style: solid;
+  border-color: lightblue;
+  list-style: none;
+  /*background-color: red;*/
+  height: 75%;
+  width: 55%;
+  margin: auto;
+  float: left;
+  overflow: hidden;
+}
+
+h1 {
+  margin-top: 25px;
+}
+
+input {
+  width: 70%;
+  height: 10%;
+  margin-bottom: 10px;
+}
