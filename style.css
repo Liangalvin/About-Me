@@ -118,8 +118,20 @@ h1 {
   padding: 2px;
 }
 
+a:link {
+  color: #0066FF;
+}
+
+a:visited {
+  color: #990033;
+}
+
 a:hover {
-  color: red;
+  color: #FF3333;
+}
+
+a:active {
+  color: #00FF00;
 }
 
 #picdiv {
@@ -151,9 +163,10 @@ a:hover {
 }
 
 .LIimage {
-  width: 25px;
-  height: 25px;
-  padding: 0 10px;
+  width: 30px;
+  height: 30px;
+  margin-top: 3%;
+  margin-right: 5px;
 }
 
 .contact-li {
@@ -164,16 +177,34 @@ a:hover {
 }
 
 #infolist {
-  display: inline;
+  /*display: inline;*/
   border-style: solid;
   border-color: pink;
-  width: 50px;
-  height: 25px;
+  width: 80%;
+  height: 75%;
   list-style-type: none;
+  padding-bottom: 2%;
 }
 
 .contactlist {
-  width: 20%;
-  height: 10%;
+  width: 40%;
+  height: 20%;
   text-align: center;
+  margin: auto;
+  padding-bottom: 2%;
+}
+
+#contactinfo {
+  border-style: solid;
+  border-color: lightgreen;
+  margin: auto;
+}
+
+footer {
+  border-style: solid;
+  border-color: green;
+  height: 80%;
+  width: 60%;
+  margin: 1%;
+  color: white;
 }
