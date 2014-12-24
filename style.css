@@ -47,11 +47,6 @@ h1 {
   border-color: blue;
 }
 
-/*li {
-  border-radius: 5px;
-  border-style: solid;
-}*/
-
 #info {
   width: 90%;
   height: 65%;
@@ -93,29 +88,26 @@ h1 {
 
 #project1 {
   width: 32%;
-  height: 100%;
+  height: 99%;
   border-style: solid;
   border-color: white;
   float: left;
-  padding: 2px;
 }
 
 #project2 {
   width: 32%;
-  height: 100%;
+  height: 99%;
   float: left;
   border-style: solid;
   border-color: white;
-  padding: 2px;
 }
 
 #project3 {
   width: 32%;
-  height: 100%;
+  height: 99%;
   float: left;
   border-style: solid;
   border-color: white;
-  padding: 2px;
 }
 
 a:link {
@@ -158,7 +150,7 @@ a:active {
   border-style: solid;
   border-color: yellow;
   width: 90%;
-  height: 80%;
+  height: 85%;
   margin: 5% 5%;
 }
 
@@ -183,7 +175,7 @@ a:active {
   width: 80%;
   height: 75%;
   list-style-type: none;
-  padding-bottom: 2%;
+  padding-bottom: 1%;
 }
 
 .contactlist {
