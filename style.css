@@ -95,65 +95,14 @@ h1 {
   text-align: center;
 }
 
-#project1 {
+.projects {
   width: 32%;
   height: 99%;
   border-style: solid;
   border-color: white;
   float: left;
   text-align: center;
-  margin: 1px;
-  padding: 0;
-}
-
-#project2 {
-  width: 32%;
-  height: 99%;
-  float: left;
-  border-style: solid;
-  border-color: white;
-  text-align: center;
-  margin: 2px;
-}
-
-#project3 {
-  width: 32%;
-  height: 99%;
-  float: left;
-  border-style: solid;
-  border-color: white;
-  text-align: center;
-  margin: 1px;
-}
-
-#project4 {
-  width: 32%;
-  height: 99%;
-  float: left;
-  border-style: solid;
-  border-color: white;
-  text-align: center;
-  margin: 1px;
-}
-
-#project5 {
-  width: 32%;
-  height: 99%;
-  float: left;
-  border-style: solid;
-  border-color: white;
-  text-align: center;
-  margin: 2px;
-}
-
-#project6 {
-  width: 32%;
-  height: 99%;
-  float: left;
-  border-style: solid;
-  border-color: white;
-  text-align: center;
-  margin: 1px;
+  /*margin: 1px;*/
 }
 
 #button {
