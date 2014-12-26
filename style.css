@@ -126,6 +126,36 @@ h1 {
   margin: 1px;
 }
 
+#project4 {
+  width: 32%;
+  height: 99%;
+  float: left;
+  border-style: solid;
+  border-color: white;
+  text-align: center;
+  margin: 1px;
+}
+
+#project5 {
+  width: 32%;
+  height: 99%;
+  float: left;
+  border-style: solid;
+  border-color: white;
+  text-align: center;
+  margin: 2px;
+}
+
+#project6 {
+  width: 32%;
+  height: 99%;
+  float: left;
+  border-style: solid;
+  border-color: white;
+  text-align: center;
+  margin: 1px;
+}
+
 #button {
   border-style: solid;
   border-color: orange;
@@ -135,7 +165,7 @@ h1 {
   text-align: center;
 }
 
-#next-button {
+#nextButton {
   background-color: #0066FF;
   border-radius: 5px;
   width: 100px;
@@ -143,7 +173,7 @@ h1 {
   color: white;
 }
 
-#back-button {
+#backButton {
   background-color: #0066FF;
   border-radius: 5px;
   width: 100px;
@@ -314,4 +344,12 @@ footer {
 
 .text {
   margin-top: 10%;
+}
+
+#slide1 {
+  display: inline;
+}
+
+#slide2 {
+  display: none;
 }
