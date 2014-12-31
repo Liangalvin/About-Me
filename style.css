@@ -120,7 +120,7 @@ h1 {
 #nextButton {
   background-color: #0066FF;
   border-radius: 5px;
-  width: 100px;
+  width: 150px;
   height: 25px;
   color: white;
 }
@@ -128,7 +128,7 @@ h1 {
 #backButton {
   background-color: #0066FF;
   border-radius: 5px;
-  width: 100px;
+  width: 150px;
   height: 25px;
   color: white;
 }
