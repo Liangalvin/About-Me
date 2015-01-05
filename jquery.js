@@ -3,8 +3,8 @@ $(document).ready(function(){
   $("#nextButton").click(function(){ //on next button clicked
     console.log("clicked");
     $("#slide1").slideUp("slow", function(){ //slide1 not visible
-      $("#slide2").slideDown("slow", function(){ //slide2 visible
-        $("#slide2").css("display","inline");
+      $("#slide2").slideDown("slow", function(){ //slide2 visible on slide down slow
+        $("#slide2").css("display","inline"); //slide2 will display
         console.log("slide2 done");
       });
     });
@@ -13,7 +13,7 @@ $(document).ready(function(){
     console.log("back");
     $("#slide2").slideUp("slow", function(){ //slide2 not visible
       $("#slide1").slideDown("slow", function(){ //slide 1 visible
-        $("#slide1").css("display", "inline");
+        $("#slide1").css("display", "inline"); //slide1 will display
         console.log("slide1 done");
       });
     });
