@@ -3,8 +3,9 @@ var http = require("http");
 var server = http.createServer(function(request, response){
   var path = request.url;
   var last3Chars = path.slice(path.length-3,path.length);
+  var last4Chars = path.slice(path.length-4,path.length);
   var pathSplit = path.split("/"); //path split by the slash
-  if(last3Chars === "tml" || last3Chars === "css" || last3Chars === ".js"){ //if last 3 chars are html of portfolio then
+  if(last4Chars === "html" || last4Chars === ".css" || last3Chars === ".js"){ //if last 3 chars are html of portfolio then
     //console.log(pathSplit);
     if (pathSplit.length > 2){ // if the split path is for portfolio (greater then 2 ex: index/project) ***MEMO*** pathSplit("/") <<< this has a empty space at index[0]
      var readPathFile = pathSplit.splice(1, pathSplit.length); //array of pathsplit[1] and pathsplit[2]
