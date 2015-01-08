@@ -1,7 +1,7 @@
 var fs = require("fs");
 var http = require("http");
 var server = http.createServer(function(request, response){
-  var path = request.url;
+  var path = request.url.toString();
   var last3Chars = path.slice(path.length-3,path.length);
   var last4Chars = path.slice(path.length-4,path.length);
   var pathSplit = path.split("/"); //path split by the slash
